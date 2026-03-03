@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🛒 CartNext — CSAO Rail Recommendation System
+# 🛒 CSAO Rail Recommendation System
 
 **Cart Super Add-On (CSAO) intelligent recommendation engine for food delivery**
 
