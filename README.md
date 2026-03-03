@@ -501,20 +501,6 @@ Ramp         : Day 1 at 5% → Day 2 full traffic (SLO sanity check)
 | **Hit@1 = 21.33%** | Top-slot CTR | Cold-start users may behave differently than training data |
 
 ---
-## 🚀 Production Architecture
-
-### Latency Budget
-
-```
-Component                    Latency        Budget     Status
-─────────────────────────────────────────────────────────────
-Model inference (7 trees)    0.119ms P99    —          ✅
-Feature assembly (cart state) <5ms           50ms       ✅
-Redis feature fetch           2–5ms          50ms       ✅
-Network + serialisation       10–30ms        100ms      ✅
-─────────────────────────────────────────────────────────────
-Total system end-to-end       <50ms est.     200ms      ✅ 150ms headroom
-```
 
 ## 📦 Data Schema
 
