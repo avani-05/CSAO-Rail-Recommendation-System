@@ -89,12 +89,6 @@ Coverage         →  100%         Cold-start     →  96.4% via rule-fill
 
 ## 🏗 System Architecture
 
-<div align="center">
-
-![System Architecture](reports/architecture_diagram.png)
-
-</div>
-
 The system operates in three distinct layers:
 
 ### Layer 1 — Data Preparation
@@ -508,25 +502,6 @@ Ramp         : Day 1 at 5% → Day 2 full traffic (SLO sanity check)
 | **Hit@1 = 21.33%** | Top-slot CTR | Cold-start users may behave differently than training data |
 
 ---
-
-## 📊 Error Analysis Summary
-
-| Finding | Severity | Business Impact |
-|---|---|---|
-| Missed items have 3× lower `retrieval_score` (0.208 vs 0.645) | 🔴 Critical | Niche add-ons buried — needs item embeddings |
-| Expensive items (₹120+) miss rate = 42.4% vs 19.1% cheap items | 🔴 Critical | Directly limits AOV lift — 4.6× revenue per hit if fixed |
-| FP@Rank1 = 78.7% (popularity bias — cheap bestsellers crowd out contextual items) | 🔴 High | Prime rail slot wasted — session-level co-occurrence needed |
-| Tail vs Head item gap = 2.2pp (69.9% vs 72.1%) | 🟡 Low | Model generalises well — co-occurrence + rule-fill adequate |
-| Miss rate is item-driven, not user-driven (order_count diff = −2.3%) | 🟢 None | User cold-start not a bottleneck |
-
-**Recommended V3 improvements:**
-1. Switch training metric to `NDCG@8` (current model stops at 7 iterations with AUC metric)
-2. Add item-embedding similarity feature for niche/tail items
-3. Add `price_tier_attach_rate` (attach rate conditional on user AOV segment)
-4. Add `session_cooc_score` (co-occurrence conditioned on this session's specific cart items)
-
----
-
 ## 🚀 Production Architecture
 
 ### Latency Budget
@@ -541,17 +516,6 @@ Network + serialisation       10–30ms        100ms      ✅
 ─────────────────────────────────────────────────────────────
 Total system end-to-end       <50ms est.     200ms      ✅ 150ms headroom
 ```
-
-### Scalability
-
-| Layer | Technology | Approach |
-|---|---|---|
-| Feature Store | Redis + BigQuery | Real-time cart state in Redis; batch user/item features in BQ; sharding by city |
-| Model Serving | Kubernetes + Triton | Stateless pods; auto-scale on CPU; 0.5ms/req → 2M+ req/day/pod |
-| Candidate Retrieval | Co-occurrence index | Pre-built daily; partitioned by restaurant_id; top-30 in O(1) |
-| Model Retraining | Weekly batch job | Full pipeline <2 min; shadow deploy + AUC regression test before live swap |
-
----
 
 ## 📦 Data Schema
 
@@ -629,13 +593,7 @@ All notebooks are designed to run on **Google Colab** with data stored in Google
 ## 👥 Team
 
 *Submitted for Zomathon — Problem Statement 2: Cart Super Add-On (CSAO) Rail Recommendation System*
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
-
+**Team Members: Avani Agnihotri , Nehal Aggarwal , Nandini Goel**
 ---
 
 <div align="center">
