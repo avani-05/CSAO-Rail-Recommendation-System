@@ -1,19 +1,40 @@
+# Reports & Documentation
 
-# Reports & Analysis
+This folder contains detailed analysis, system design documentation,
+and the final consolidated project report for the two-stage
+cart-based recommendation system.
 
-This folder contains supporting analysis, system design documentation,
-and business impact evaluation for the cart-based recommendation system.
+These artifacts complement the notebooks and modular `src/` code
+by documenting modeling decisions, trade-offs, and business impact.
 
-These reports complement the notebooks and modular `src/` code by
-providing deeper reasoning behind modeling decisions.
+---
+
+## 📘 Cart_Next_CSAO_Recommendation_Report.pdf
+
+Final consolidated project report.
+
+This document provides an end-to-end overview of:
+
+- Problem framing (neutral description)
+- Data pipeline design
+- Two-stage system architecture
+- Candidate generation strategy
+- Feature engineering methodology
+- Model training & evaluation
+- Offline A/B simulation results
+- Business impact translation
+- Scalability considerations
+- Future improvements
+
+This is the primary document for understanding the complete system.
 
 ---
 
 ## 📊 CSAO_AB_Test_Report.pdf
 
-Offline A/B simulation results comparing:
+Offline A/B simulation comparing:
 
-- Baseline retrieval ranking
+- Retrieval-only ranking
 - Learned LightGBM ranking model
 
 Includes:
@@ -25,18 +46,18 @@ Includes:
 - Visibility improvement estimation
 
 Purpose:
-Translate ranking improvements into measurable business impact.
+Translate model performance into measurable business impact.
 
 ---
 
 ## ⚙️ CSAO_Constraints_Report.pdf
 
-Details system-level constraints and design trade-offs:
+System-level design constraints and trade-offs:
 
 - Latency budget reasoning
 - Candidate pool size limits
 - Real-time inference considerations
-- Memory constraints
+- Memory footprint
 - Restaurant-level filtering logic
 - Cold-start handling strategy
 
@@ -47,59 +68,53 @@ Demonstrate production readiness and scalability awareness.
 
 ## 🔍 csao_error_analysis_report.pdf
 
-Focused error breakdown of ranking failures:
+Detailed analysis of ranking errors:
 
-- Missed positives analysis
-- False positive patterns
-- Category imbalance effects
-- Popularity bias evaluation
+- Missed positives
+- False positives
+- Category imbalance
+- Popularity bias effects
 - Cart-state edge cases
 
-Includes examples of:
-
-- High retrieval score but wrong ranking
-- Cold-start misclassifications
-- Context misalignment
-
-Purpose:
-Identify model weaknesses and guide future improvements.
+Includes qualitative and quantitative breakdown of model weaknesses
+to guide future improvements.
 
 ---
 
 ## 🧠 model_arch.png
 
-High-level architecture diagram of the two-stage system:
+High-level architecture diagram of the two-stage system.
 
-Stage 1: Candidate Retrieval
-- Item co-occurrence
-- Context popularity (meal-time buckets)
-- Rule-based complementary fills
+Stage 1: Candidate Retrieval  
+- Item co-occurrence  
+- Context popularity (meal-time buckets)  
+- Rule-based complementary fills  
 
-Stage 2: Ranking Model
-- Feature engineering
-- LightGBM scoring
-- Top-K selection
+Stage 2: Ranking Model  
+- Feature engineering  
+- LightGBM scoring  
+- Top-K selection  
 
 Also highlights:
 
-- Latency budget
-- Candidate size constraints
-- Data flow between components
+- Data flow across stages
+- Candidate bounding
+- Inference pipeline structure
+- Latency-aware design
 
 ---
 
-## Why These Reports Matter
+## Why This Folder Matters
 
-Machine learning systems are not just about model metrics.
+Machine learning systems are not just about model accuracy.
 
 This folder demonstrates:
 
-- System design clarity
-- Trade-off reasoning
-- Business translation
-- Analytical rigor
-- Production awareness
+- End-to-end system thinking
+- Structured experimentation
+- Business translation of metrics
+- Production-aware architecture
+- Clear documentation of trade-offs
 
-Together, these artifacts show the project as a
-complete, end-to-end recommendation system rather
-than a standalone model experiment.
+Together, these reports position the project as a complete,
+real-world recommendation system rather than a standalone model experiment.
