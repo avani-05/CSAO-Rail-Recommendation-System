@@ -571,8 +571,6 @@ DS_Enrichment.ipynb              ← LLM enrichment (Gemini API key required)
 04_ab_testing_simulation.ipynb   ← offline A/B + business projections
 ```
 
-All notebooks are designed to run on **Google Colab** with data stored in Google Drive at `/content/drive/MyDrive/csao_outputs/`.
-
 ---
 
 ## 👥 Team
