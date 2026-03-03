@@ -585,7 +585,7 @@ Nehal Aggarwal
 
 Nandini Goel
 
-Built as part of a competitive machine learning challenge focused on real-time cart-based recommendation systems.
+
 
 **Core stack:**
 
