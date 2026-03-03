@@ -8,7 +8,6 @@
 [![LightGBM](https://img.shields.io/badge/LightGBM-Binary%20Ranker-009966?style=for-the-badge)](https://lightgbm.readthedocs.io)
 [![Gemini](https://img.shields.io/badge/Gemini%201.5%20Flash-LLM%20Enrichment-4285F4?style=for-the-badge&logo=google&logoColor=white)](https://deepmind.google/technologies/gemini/)
 [![Colab](https://img.shields.io/badge/Google%20Colab-Notebooks-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white)](https://colab.research.google.com)
-[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
 
 *Submitted for Zomathon — Problem Statement 2*
 
