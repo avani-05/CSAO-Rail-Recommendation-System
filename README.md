@@ -609,7 +609,6 @@ Python
 
 Google Colab
 
-LLM-assisted menu enrichment (Gemini 1.5 Flash)
 ---
 
 <div align="center">
