@@ -592,8 +592,25 @@ All notebooks are designed to run on **Google Colab** with data stored in Google
 
 ## 👥 Team
 
-*Submitted for Zomathon — Problem Statement 2: Cart Super Add-On (CSAO) Rail Recommendation System*
-**Team Members: Avani Agnihotri , Nehal Aggarwal , Nandini Goel**
+**This project was developed by:**
+
+Avani Agnihotri
+
+Nehal Aggarwal
+
+Nandini Goel
+
+Built as part of a competitive machine learning challenge focused on real-time cart-based recommendation systems.
+
+**Core stack:**
+
+LightGBM
+
+Python
+
+Google Colab
+
+LLM-assisted menu enrichment (Gemini 1.5 Flash)
 ---
 
 <div align="center">
