@@ -1,0 +1,201 @@
+item_id,restaurant_id,item_name,item_description,category,is_veg,spice_level,price,popularity_score,historical_attach_rate,normalized_category,dish_subtype,meal_time_suitability,confidence,source,effective_category
+1,1,Mutton Seekh Kebab 1 Ltr,,main,0,medium,249.0,0.7095,0.153,main,other,lunch|dinner,1.0,original,main
+2,1,Veg Dum Biryani (Medium),,main,1,medium,319.0,0.8068,0.135,main,other,lunch|dinner,1.0,original,main
+3,1,Raita (Spicy),,side,0,spicy,99.0,1.0,0.231,side,other,lunch|dinner,1.0,original,side
+4,1,Veg Dum Biryani - Extra Hot (Half),,main,1,spicy,349.0,0.5747,0.316,main,other,lunch|dinner,1.0,original,main
+6,1,Shahi Tukda,,dessert,1,medium,134.0,0.7095,0.288,dessert,other,lunch|dinner,1.0,original,dessert
+7,1,Galouti Kebab (Fiery),,main,0,spicy,304.0,0.5747,0.197,main,other,lunch|dinner,1.0,original,main
+8,1,Veg Dum Biryani,,main,1,medium,246.0,0.1903,0.012,main,other,lunch|dinner,1.0,original,main
+9,1,Kesar Milk (Mild),,beverage,1,mild,124.0,0.8068,0.631,beverage,other,lunch|dinner,1.0,original,beverage
+10,1,Kesar Milk,,beverage,1,mild,134.0,0.6489,0.715,beverage,other,lunch|dinner,1.0,original,beverage
+11,1,Phirni (Mild),,dessert,0,mild,104.0,0.7095,0.357,dessert,other,lunch|dinner,1.0,original,dessert
+12,1,Paneer Pasanda - Extra Hot - Chef's Specail,,main,1,spicy,269.0,0.7095,0.285,main,other,lunch|dinner,1.0,original,main
+13,1,Rooh Afza,,beverage,1,mild,132.0,0.4653,0.632,beverage,other,lunch|dinner,1.0,original,beverage
+14,1,Nawabi Paneer (Fiery) 4 pcs,,main,1,spicy,342.0,0.8068,0.198,main,other,lunch|dinner,1.0,original,main
+15,1,Galouti Kebab (Spicy) (Half),best paired with naan or rice,main,0,spicy,312.0,0.3631,0.24,main,other,lunch|dinner,1.0,original,main
+16,1,Veg Dum Biryani,,main,1,mild,326.0,1.0,0.141,main,other,lunch|dinner,1.0,original,main
+17,1,Paneer Biryani,,main,1,mild,306.0,0.4417,0.093,main,other,lunch|dinner,1.0,original,main
+18,1,Haleem (Mild),"rich smoky gravy, served hot",unknown,0,mild,231.0,1.0,0.136,main,haleem,lunch|dinner|late-night,0.82,rule,main
+19,1,Salan,,side,0,mild,143.0,1.0,0.173,side,other,lunch|dinner,0.82,rule,side
+20,1,Veg Dum Biryani,,main,1,mild,227.0,0.7095,0.104,main,other,lunch|dinner,1.0,original,main
+21,1,Veg Biryani,,main,1,spicy,214.0,0.8068,0.192,main,other,lunch|dinner,1.0,original,main
+22,1,Chicken Dum Biryani - Extra Hot,,main,0,spicy,245.0,1.0,0.226,main,other,lunch|dinner,1.0,original,main
+23,1,Chicken Rezala (Mild),,main,0,mild,315.0,0.2279,0.113,main,other,lunch|dinner,1.0,original,main
+24,1,Double Ka Meetha,,dessert,1,medium,132.0,0.7095,0.3,dessert,other,lunch|dinner,1.0,original,dessert
+25,1,Warqi Paratha,,side,0,spicy,100.0,1.0,0.16,side,other,lunch|dinner,1.0,original,side
+26,1,Paneer Biryani (Mild),made fresh to order,main,1,mild,297.0,0.6065,0.03,main,other,lunch|dinner,1.0,original,main
+27,1,Kesar Milk 1 Ltr,,beverage,1,mild,79.0,0.8068,0.726,beverage,other,lunch|dinner,1.0,original,beverage
+28,1,Raita (Mild),,side,0,mild,136.0,1.0,0.236,side,other,lunch|dinner,1.0,original,side
+29,1,Haleem,slow cooked with creamy spices,main,0,medium,206.0,1.0,0.09,main,other,lunch|dinner,1.0,original,main
+30,1,Zarda,,dessert,1,mild,107.0,1.0,0.35,dessert,other,lunch|dinner,1.0,original,dessert
+31,2,Veg Manchurian (Mild),house recipe  with secret spices,unknown,1,mild,340.0,1.0,0.102,main,other,lunch|dinner,0.82,rule,main
+32,2,Pork Dim Sum - Extra Hot,,main,0,spicy,228.0,1.0,0.29,main,other,lunch|dinner,1.0,original,main
+33,2,Signature  Green Tea (Mild),,beverage,1,mild,97.0,0.8068,0.518,beverage,other,lunch|dinner,1.0,original,beverage
+34,2,Cold Coffee,,beverage,1,mild,118.0,0.3168,0.496,beverage,other,lunch|dinner,1.0,original,beverage
+36,2,Veg Manchurian (Mild),,unknown,1,mild,222.0,1.0,0.083,main,other,lunch|dinner,0.82,rule,main
+37,2,Veg Fried Rice,,main,1,medium,271.0,0.7095,0.01,main,other,lunch|dinner,1.0,original,main
+38,2,Cold Coffee (Mild),,beverage,1,mild,90.0,1.0,0.543,beverage,coffee,breakfast|lunch|dinner|late-night,0.82,rule,beverage
+39,2,Iced Lemon Tea,,beverage,1,mild,127.0,1.0,0.509,beverage,other,breakfast|lunch|dinner|late-night,0.82,rule,beverage
+40,2,Fried Ice Cream (Mild),served warm with ice cream,dessert,1,mild,102.0,0.5127,0.278,dessert,other,lunch|dinner,1.0,original,dessert
+41,2,"Honey Chilly Ice Cream,",sweet and indulgent,dessert,1,mild,113.0,0.7095,0.326,dessert,other,lunch|dinner,1.0,original,dessert
+42,2,Iced Lemon Tea,,beverage,1,mild,90.0,1.0,0.577,beverage,other,breakfast|lunch|dinner|late-night,0.82,rule,beverage
+43,2,Soft Drink (Mild),house special blend,beverage,1,mild,70.0,0.3476,0.467,beverage,other,lunch|dinner,1.0,original,beverage
+45,2,Toffee Apple (Mild),,dessert,0,mild,147.0,0.6489,0.264,dessert,other,lunch|dinner,1.0,original,dessert
+46,2,Chicken Spring Rolls (Fiery),,main,0,spicy,326.0,0.4052,0.113,main,other,lunch|dinner,1.0,original,main
+47,2,Veg Noodles - Must Try,,main,1,medium,258.0,0.4094,0.01,main,other,lunch|dinner,1.0,original,main
+48,2,Green Tea,,beverage,1,mild,87.0,1.0,0.6,beverage,other,breakfast|lunch|dinner|late-night,0.82,rule,beverage
+50,2,Veg Spring Rolls,,main,1,mild,365.0,0.8068,0.152,main,other,lunch|dinner,1.0,original,main
+51,2,Veg Soup (Medium),,side,1,medium,126.0,0.4352,0.308,side,other,lunch|dinner,1.0,original,side
+52,2,Chicken Schezwan Rice - Extra Hot,,main,0,spicy,217.0,0.3461,0.201,main,other,lunch|dinner,1.0,original,main
+54,2,Traditional Veg Dim Sum (Fiery),,main,1,spicy,273.0,0.6065,0.183,main,other,lunch|dinner,1.0,original,main
+55,2,Prawn Crackers (Medium) (Full),"warm & soft, straight from tandoor",side,0,medium,101.0,0.5296,0.171,side,other,lunch|dinner,1.0,original,side
+56,2,Veg Noodles,,main,1,mild,333.0,1.0,0.143,main,noodles,dinner|late-night,0.82,rule,main
+58,2,Cold Coffee (Mild),sweet or salted – your choice,beverage,1,mild,103.0,0.8068,0.463,beverage,other,lunch|dinner,1.0,original,beverage
+59,2,Tofu Stir Fry (Medium),,unknown,1,medium,318.0,1.0,0.034,main,other,lunch|dinner,0.82,rule,main
+60,2,Chicken Soup (Medium),,side,0,medium,137.0,0.8068,0.153,side,other,lunch|dinner,1.0,original,side
+63,3,Prawn Crackers (Medium),,side,0,medium,24.0,0.6065,0.247,side,other,lunch|dinner,1.0,original,side
+64,3,Veg Manchurian (Spicy),house recipe  with secret spices,main,1,spicy,77.0,1.0,0.24,main,other,lunch|dinner,0.82,rule,main
+65,3,Prawn Crackers (Medium),"freshly baked , goes well with curry",side,0,medium,24.0,0.8068,0.179,side,other,lunch|dinner,1.0,original,side
+66,3,Chilli Paneer,,main,1,mild,62.0,0.8068,0.125,main,other,lunch|dinner,1.0,original,main
+67,3,Lychee Juice (Mild),,unknown,1,mild,20.0,1.0,0.633,beverage,juice,breakfast|lunch|dinner|late-night,0.82,rule,beverage
+69,3,Steamed Rice (Fiery),,side,1,spicy,27.0,0.2383,0.248,side,other,lunch|dinner,1.0,original,side
+70,3,Date Pancake,,dessert,1,mild,41.0,0.6489,0.286,dessert,other,lunch|dinner,1.0,original,dessert
+74,3,Veg Spring Rolls (Medium),,main,1,medium,51.0,0.6065,0.221,main,other,lunch|dinner,1.0,original,main
+76,3,Honey Chilli Ice Cream,,dessert,1,mild,32.0,1.0,0.272,dessert,ice cream,lunch|dinner,0.82,rule,dessert
+78,3,Mushroom Fried Rice (Fiery) 6 pcs,,main,1,spicy,73.0,0.4352,0.313,main,other,lunch|dinner,1.0,original,main
+79,3,Green Tea (Mild),,beverage,1,mild,17.0,0.6489,0.46,beverage,other,lunch|dinner,1.0,original,beverage
+80,3,Momos,crispy and light,side,1,medium,35.0,0.5498,0.236,side,other,lunch|dinner,1.0,original,side
+81,3,Chicken Soup - Half Plate,,side,0,mild,36.0,0.7095,0.185,side,other,lunch|dinner,1.0,original,side
+82,3,Chicken Soup,,side,0,mild,24.0,0.8068,0.232,side,other,lunch|dinner,1.0,original,side
+83,3,Toffee Apple (Medium) - Chef's Specail,,dessert,0,medium,40.0,0.7095,0.268,dessert,other,lunch|dinner,1.0,original,dessert
+84,3,Date Pancake - Authentic,creamy and delicious,dessert,1,mild,38.0,0.2536,0.293,dessert,other,lunch|dinner,1.0,original,dessert
+85,3,Iced Lemon Tea (Mild),,beverage,1,mild,16.0,0.6489,0.516,beverage,other,lunch|dinner,1.0,original,beverage
+86,3,Chicken Soup,,side,0,mild,29.0,0.7095,0.207,side,other,lunch|dinner,1.0,original,side
+88,3,Fish Manchurian,,main,0,mild,49.0,0.3631,0.105,main,other,lunch|dinner,1.0,original,main
+90,3,Veg Spring Rolls - Extra Hot - Authentic,,main,1,spicy,77.0,0.8068,0.328,main,other,lunch|dinner,1.0,original,main
+91,4,Ragda Pattice (Fiery) 500ml,,main,1,spicy,114.0,0.8068,0.229,main,other,lunch|dinner,1.0,original,main
+92,4,Pav Bhaji (Mild),,main,1,mild,205.0,0.6489,0.074,main,other,lunch|dinner,1.0,original,main
+93,4,Chicken Frankie,,main,0,medium,208.0,0.6489,0.065,main,other,lunch|dinner,1.0,original,main
+94,4,Vada Pav,,main,1,mild,143.0,0.6489,0.057,main,other,lunch|dinner,1.0,original,main
+95,4,Papdi Chaat (Spicy),,main,1,spicy,143.0,0.3791,0.194,main,other,lunch|dinner,1.0,original,main
+96,4,Nimbu Pani - Half Plate,,beverage,1,mild,71.0,1.0,0.514,beverage,other,breakfast|lunch|dinner|late-night,0.82,rule,beverage
+97,4,Aam Panna (Mild),,beverage,1,mild,67.0,0.5747,0.611,beverage,other,lunch|dinner,1.0,original,beverage
+98,4,Rabri (Mild),served warm with ice cream,dessert,1,mild,72.0,1.0,0.3,dessert,other,lunch|dinner,0.82,rule,dessert
+99,4,Samosa Chaat (Mild),,main,1,mild,129.0,0.5296,0.086,main,other,lunch|dinner,1.0,original,main
+100,4,Chicken Frankie (Mild),,main,0,mild,123.0,1.0,0.108,main,other,lunch|dinner|late-night,0.82,rule,main
+101,4,Sev Puri - Extra Hot,,main,1,spicy,150.0,0.8068,0.274,main,other,lunch|dinner,1.0,original,main
+102,4,Masala Papad (Mild),,side,1,mild,49.0,0.7095,0.155,side,other,lunch|dinner,1.0,original,side
+103,4,Nimbu Pani,,beverage,1,mild,55.0,0.7095,0.543,beverage,other,lunch|dinner,1.0,original,beverage
+104,4,Rabri,"freshly made , limited qty",dessert,0,mild,63.0,1.0,0.388,dessert,other,lunch|dinner,0.82,rule,dessert
+105,4,Matka Kulfi (Mild),rich herby dessert,dessert,1,mild,73.0,1.0,0.239,dessert,kulfi,lunch|dinner,0.82,rule,dessert
+106,4,Dabeli (Mild),freshly prepared with aromatic spices,main,1,mild,129.0,0.2386,0.059,main,other,lunch|dinner,1.0,original,main
+107,4,Ragda Pattice (Spicy),"generous portion , served fresh!!",main,1,spicy,120.0,0.7095,0.253,main,other,lunch|dinner,1.0,original,main
+109,4,Tamarind Chutney,,side,1,medium,76.0,0.3235,0.176,side,other,lunch|dinner,1.0,original,side
+110,4,House Special Egg Kathi Roll (Mild),slow cooked with rich spices,main,0,mild,177.0,1.0,0.111,main,roll,lunch|dinner|late-night,0.82,rule,main
+111,4,Rabri (Mild),,dessert,1,mild,82.0,0.8068,0.255,dessert,other,lunch|dinner,1.0,original,dessert
+112,4,Chicken Tikka Roll,,main,0,medium,190.0,1.0,0.129,main,tikka,lunch|dinner|late-night,0.82,rule,main
+113,4,Sugarcane Juice (Mild),,beverage,1,mild,69.0,0.7095,0.66,beverage,other,lunch|dinner,1.0,original,beverage
+114,4,Tamarind Chutney (Fiery),,side,0,spicy,76.0,1.0,0.129,side,chutney,lunch|dinner,0.82,rule,side
+115,4,Chicken Kathi Roll (Spicy),made fresh to order,main,0,spicy,144.0,1.0,0.167,main,roll,lunch|dinner|late-night,0.82,rule,main
+117,4,Faluda,rich mild dessert,dessert,1,mild,102.0,0.7095,0.267,dessert,other,lunch|dinner,1.0,original,dessert
+118,4,Tamarind Chutney (Medium),,side,1,medium,94.0,0.6065,0.191,side,other,lunch|dinner,1.0,original,side
+119,4,Tamarind Chutney (Medium) 6 pcs,crunchy with a hint of zesty,side,1,medium,79.0,0.5498,0.126,side,other,lunch|dinner,1.0,original,side
+120,4,Masala Soda 4 pcs,,beverage,1,medium,43.0,0.7095,0.626,beverage,other,lunch|dinner,1.0,original,beverage
+121,5,Chicken Noodles,"creamy and delicious, must try!!",main,0,medium,189.0,0.8068,0.138,main,other,lunch|dinner,1.0,original,main
+122,5,Chicken Noodles,,main,0,medium,126.0,0.8068,0.112,main,other,lunch|dinner,1.0,original,main
+124,5,Traditional Soy Sauce,crunchy with a hint of creamy,side,1,medium,90.0,0.7095,0.171,side,other,lunch|dinner,1.0,original,side
+126,5,Veg Manchurian,,main,1,mild,153.0,1.0,0.129,main,other,lunch|dinner,0.82,rule,main
+127,5,Veg Hakka Noodles (Fiery) - Traditional,"creamy and delicious, must try!!",main,1,spicy,188.0,0.6489,0.167,main,other,lunch|dinner,1.0,original,main
+128,5,Veg Manchurian,,main,1,spicy,170.0,0.1362,0.297,main,other,lunch|dinner,1.0,original,main
+129,5,Today's Specail Fried Ice Cream (Medium),melt in the mouth,dessert,0,medium,100.0,1.0,0.375,dessert,ice cream,lunch|dinner,0.82,rule,dessert
+130,5,Fried Ice Cream,,dessert,1,mild,76.0,1.0,0.342,dessert,ice cream,lunch|dinner,0.82,rule,dessert
+131,5,Chilli Paneer (Mild),best paired with naan or rice,main,1,mild,105.0,0.8068,0.123,main,other,lunch|dinner,1.0,original,main
+132,5,Mushroom Fried Rice,,main,1,mild,106.0,0.6065,0.145,main,other,lunch|dinner,1.0,original,main
+133,5,Soft Drink (Medium),,beverage,1,medium,71.0,0.8068,0.722,beverage,other,lunch|dinner,1.0,original,beverage
+134,5,Veg Soup,light and easy on the stomach,side,1,mild,86.0,0.4237,0.168,side,other,lunch|dinner,1.0,original,side
+136,5,Steamed Rice (Mild),,unknown,1,mild,48.0,0.6489,0.129,beverage,rice,lunch,0.82,rule,beverage
+137,5,Momos,,side,1,mild,68.0,0.4352,0.213,side,other,lunch|dinner,1.0,original,side
+138,5,Veg Hakka Noodles,,main,1,medium,115.0,0.6065,0.114,main,other,lunch|dinner,1.0,original,main
+139,5,Veg Soup (Mild),,side,1,mild,59.0,0.4983,0.233,side,other,lunch|dinner,1.0,original,side
+140,5,Corn Soup,slow cooked with zesty spices,main,1,medium,173.0,0.5498,0.038,main,other,lunch|dinner,1.0,original,main
+141,5,Fried Ice Cream (Medium),,dessert,0,medium,97.0,1.0,0.286,dessert,ice cream,lunch|dinner,0.82,rule,dessert
+142,5,Signature Steamed Rice - Extra Hot,,side,1,spicy,69.0,0.3611,0.222,side,other,lunch|dinner,1.0,original,side
+144,5,Date Pancake (Medium),served warm with ice cream,unknown,0,medium,98.0,0.3847,0.3,dessert,cake,lunch|dinner,0.82,rule,dessert
+145,5,Soy Sauce - Extra Hot,,side,1,spicy,50.0,0.4186,0.215,side,other,lunch|dinner,1.0,original,side
+146,5,Prawn Crackers - Extra Hot,,side,1,spicy,56.0,0.2736,0.205,side,other,lunch|dinner,1.0,original,side
+148,5,Prawn Crackers (Medium),,side,1,medium,80.0,0.3491,0.191,side,other,lunch|dinner,1.0,original,side
+149,5,Chicken Soup,,side,0,medium,62.0,0.8068,0.131,side,other,lunch|dinner,1.0,original,side
+150,5,Veg Schezwan Rice (Mild),,main,1,mild,172.0,0.8068,0.088,main,other,lunch|dinner,1.0,original,main
+151,6,Puri (Mild),,side,1,mild,259.0,0.5296,0.18,side,other,lunch|dinner,1.0,original,side
+152,6,Chana Masala (Spicy),,main,1,spicy,549.0,0.2708,0.175,main,other,lunch|dinner,1.0,original,main
+154,6,Mutton Curry,,main,0,medium,438.0,0.8068,0.08,main,other,lunch|dinner,1.0,original,main
+155,6,Palak Paneer (Medium) - Half Plate,,main,1,medium,371.0,0.4352,0.154,main,other,lunch|dinner,1.0,original,main
+156,6,Egg Curry (Medium),,main,0,medium,331.0,0.8068,0.159,main,other,lunch|dinner,1.0,original,main
+159,6,Cold Coffee (Mild),,beverage,1,mild,177.0,0.5498,0.544,beverage,other,lunch|dinner,1.0,original,beverage
+160,6,Mutton Curry (Spicy),,main,0,spicy,416.0,0.6065,0.224,main,other,lunch|dinner,1.0,original,main
+161,6,Masala Chai (Mild),,beverage,0,mild,178.0,0.8068,0.542,beverage,other,lunch|dinner,1.0,original,beverage
+162,6,Jeera Rice (Mild),,side,1,mild,220.0,0.1701,0.168,side,other,lunch|dinner,1.0,original,side
+164,6,Malpua,,dessert,1,mild,242.0,0.8068,0.327,dessert,other,lunch|dinner,1.0,original,dessert
+165,6,Mutton Curry (Mild),,main,0,mild,513.0,0.8068,0.167,main,other,lunch|dinner,1.0,original,main
+166,6,Green Salad - Extra Hot,,side,1,spicy,218.0,0.3026,0.171,side,other,lunch|dinner,1.0,original,side
+167,6,Garlic Naan,,side,0,mild,195.0,1.0,0.133,side,naan,lunch|dinner,0.82,rule,side
+168,6,Nimbu Pani (Mild),,beverage,1,mild,113.0,1.0,0.604,beverage,other,breakfast|lunch|dinner|late-night,0.82,rule,beverage
+169,6,Tandoori Roti (Medium),,side,1,medium,229.0,0.5498,0.212,side,other,lunch|dinner,1.0,original,side
+170,6,Raita (Medium),,side,1,medium,243.0,0.2333,0.168,side,other,lunch|dinner,1.0,original,side
+171,6,Paneer Butter Masala (Mild),,main,1,mild,476.0,0.3791,0.069,main,other,lunch|dinner,1.0,original,main
+173,6,Jeera Rice,perfect accompaniment,side,0,medium,160.0,1.0,0.189,side,rice,lunch,0.82,rule,side
+174,6,Egg Curry (Mild),,main,0,mild,403.0,0.4566,0.083,main,other,lunch|dinner,1.0,original,main
+175,6,Jeera Rice (Spicy),,side,0,spicy,269.0,0.6489,0.108,side,other,lunch|dinner,1.0,original,side
+177,6,Masala Chai,,beverage,1,medium,120.0,0.3819,0.539,beverage,other,lunch|dinner,1.0,original,beverage
+178,6,Tandoori Roti,perfect accompaniment,side,1,mild,174.0,0.5747,0.233,side,other,lunch|dinner,1.0,original,side
+179,6,Kheer,,dessert,1,mild,273.0,1.0,0.206,dessert,kheer,lunch|dinner,0.82,rule,dessert
+180,6,Dal Makhani (Spicy) - Must Try,,main,1,spicy,382.0,0.8068,0.188,main,other,lunch|dinner,1.0,original,main
+181,7,Chicken Frankie,,main,0,medium,79.0,0.4749,0.123,main,other,lunch|dinner,1.0,original,main
+182,7,Green Chutney (Medium),,side,0,medium,23.0,1.0,0.286,side,chutney,lunch|dinner,0.82,rule,side
+183,7,Chicken Tikka Roll,best paired with naan or rice,main,0,mild,80.0,0.2401,0.099,main,other,lunch|dinner,1.0,original,main
+184,7,Tamarind Chutney,,side,0,medium,35.0,0.4983,0.183,side,other,lunch|dinner,1.0,original,side
+185,7,Tamarind Chutney - Extra Hot,,side,1,spicy,24.0,0.7095,0.234,side,other,lunch|dinner,1.0,original,side
+186,7,Egg Bhurji Pav (Mild),,main,0,mild,65.0,0.4983,0.082,main,other,lunch|dinner,1.0,original,main
+187,7,Tamarind Chutney (Mild),,side,1,mild,28.0,0.3026,0.121,side,other,lunch|dinner,1.0,original,side
+188,7,Tamarind Chutney (Mild),,side,0,mild,32.0,1.0,0.185,side,chutney,lunch|dinner,0.82,rule,side
+189,7,Ragda Pattice,,main,1,mild,57.0,0.5747,0.141,main,other,lunch|dinner,1.0,original,main
+190,7,Egg Kathi Roll (Medium),,main,0,medium,59.0,1.0,0.148,main,roll,lunch|dinner|late-night,0.82,rule,main
+191,7,Chole Bhature,,main,1,medium,67.0,1.0,0.058,main,other,lunch,0.82,rule,main
+192,7,Faluda,,dessert,1,mild,31.0,1.0,0.188,dessert,other,lunch|dinner,0.82,rule,dessert
+194,7,"Bhel Puri,",,main,1,mild,54.0,0.5296,0.117,main,other,lunch|dinner,1.0,original,main
+195,7,Mutton Seekh Kebab,,main,0,medium,58.0,1.0,0.151,main,kebab,lunch|dinner|late-night,0.82,rule,main
+196,7,Pani Puri (Fiery),,main,1,spicy,80.0,0.3146,0.307,main,other,lunch|dinner,1.0,original,main
+197,7,Egg Kathi Roll,,main,0,medium,51.0,0.2626,0.185,main,other,lunch|dinner,1.0,original,main
+198,7,Sev,,side,1,medium,26.0,0.8068,0.202,side,other,lunch|dinner,1.0,original,side
+199,7,Chicken Frankie (Spicy),,main,0,spicy,51.0,0.4983,0.237,main,other,lunch|dinner,1.0,original,main
+200,7,Jaljeera (Mild),,beverage,1,mild,18.0,0.6065,0.485,beverage,other,lunch|dinner,1.0,original,beverage
+201,7,Tamarind Chutney,,side,0,medium,31.0,0.7095,0.258,side,other,lunch|dinner,1.0,original,side
+203,7,Egg Kathi Roll (Medium),"rich mild gravy, served hot",main,0,medium,83.0,0.7095,0.01,main,other,lunch|dinner,1.0,original,main
+204,7,Aam Panna (Medium),,beverage,1,medium,20.0,0.8068,0.57,beverage,other,lunch|dinner,1.0,original,beverage
+205,7,Rabri,,dessert,1,mild,31.0,1.0,0.315,dessert,other,lunch|dinner,0.82,rule,dessert
+206,7,Onion Rings,,side,1,medium,29.0,1.0,0.27,side,other,lunch|dinner,0.82,rule,side
+207,7,Sugarcane Juice (Medium),,beverage,1,medium,19.0,0.4749,0.562,beverage,other,lunch|dinner,1.0,original,beverage
+209,7,Green Chutney,,side,0,medium,37.0,1.0,0.227,side,chutney,lunch|dinner,0.82,rule,side
+210,7,Nimbu Pani (Mild) 2 pcs,,beverage,1,mild,17.0,0.4417,0.526,beverage,other,lunch|dinner,1.0,original,beverage
+211,8,Mutton Curry (Spicy),,main,0,spicy,82.0,1.0,0.167,main,curry,lunch|dinner,0.82,rule,main
+212,8,Mango Lassi,,beverage,1,mild,19.0,0.5498,0.538,beverage,other,lunch|dinner,1.0,original,beverage
+213,8,Mix Veg Curry (Mild),"generous portion , served fresh",main,1,mild,68.0,1.0,0.075,main,curry,lunch|dinner,0.82,rule,main
+214,8,Plain Rice (Medium),,side,0,medium,28.0,1.0,0.201,side,rice,lunch,0.82,rule,side
+215,8,Lachha Paratha,,side,1,mild,27.0,0.3976,0.345,side,other,lunch|dinner,1.0,original,side
+218,8,Shahi Paneer (Mild),,main,1,mild,47.0,0.8068,0.068,main,other,lunch|dinner,1.0,original,main
+219,8,Kulfi,,dessert,1,medium,38.0,1.0,0.368,dessert,kulfi,lunch|dinner,0.82,rule,dessert
+220,8,Veg Kofta,,main,1,spicy,52.0,0.236,0.217,main,other,lunch|dinner,1.0,original,main
+221,8,Kulfi,melt in the mouth,dessert,1,mild,39.0,0.3976,0.349,dessert,other,lunch|dinner,1.0,original,dessert
+222,8,Masala Chai,,beverage,1,mild,18.0,1.0,0.492,beverage,masala,breakfast,0.82,rule,beverage
+223,8,Chicken Saag - Extra Hot,house recipe  with secret spices,main,0,spicy,57.0,0.8068,0.206,main,other,lunch|dinner,1.0,original,main
+224,8,Puri - Extra Hot,,side,1,spicy,19.0,0.3461,0.185,side,other,lunch|dinner,1.0,original,side
+226,8,Chana Masala (Medium),,main,1,medium,79.0,1.0,0.111,main,masala,lunch|dinner,0.82,rule,main
+227,8,Salted Lassi (Mild),house special blend,beverage,1,mild,22.0,1.0,0.572,beverage,lassi,breakfast|lunch|dinner|late-night,0.82,rule,beverage
+228,8,Masala Chai,,beverage,1,medium,23.0,0.2533,0.584,beverage,other,lunch|dinner,1.0,original,beverage
+229,8,Chana Masala (Mild),,main,1,mild,49.0,0.8068,0.096,main,other,lunch|dinner,1.0,original,main
+230,8,Salted Lassi,served cold with ice,beverage,1,medium,20.0,0.268,0.581,beverage,other,lunch|dinner,1.0,original,beverage
+232,8,Egg Paratha,,side,0,medium,37.0,1.0,0.273,side,paratha,breakfast,0.82,rule,side
+234,8,Tandoori Roti,,side,0,medium,35.0,0.3908,0.167,side,other,lunch|dinner,1.0,original,side
+235,8,Rasgulla - Best Seller,served warm with ice cream,dessert,1,medium,26.0,0.2011,0.284,dessert,other,lunch|dinner,1.0,original,dessert
+236,8,Chicken Tikka Masala (Medium),,main,0,medium,64.0,0.8068,0.049,main,other,lunch|dinner,1.0,original,main
+237,8,Kulfi,,dessert,1,mild,28.0,1.0,0.236,dessert,kulfi,lunch|dinner,0.82,rule,dessert
