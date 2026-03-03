@@ -574,7 +574,7 @@ DS_Enrichment.ipynb              ← LLM enrichment (Gemini API key required)
 
 ---
 
-## 👥 Team
+## 👥 Team TrailBlazers
 
 **This project was developed by:**
 
